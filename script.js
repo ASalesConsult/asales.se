@@ -1,8 +1,1 @@
-const b=document.getElementById('langBtn');
-let sv=true;
-b.onclick=()=>{
-sv=!sv;
-document.getElementById('title').textContent=sv?'Skapar tillväxt genom försäljning, relationer och resultat.':'Creating growth through sales, relationships and results.';
-document.getElementById('subtitle').textContent=sv?'Specialister inom Sales, Key Account Management och Business Development.':'Experts in Sales, Key Account Management and Business Development.';
-b.textContent=sv?'English':'Svenska';
-};
+const t=document.getElementById("languageToggle"),m=document.querySelector(".menu-toggle"),n=document.querySelector(".main-nav");let l="sv";function setLang(x){l=x;document.documentElement.lang=x;document.querySelectorAll("[data-sv][data-en]").forEach(e=>e.textContent=e.dataset[x]);t.textContent=x==="sv"?"EN":"SV";document.title=x==="sv"?"A SalesConsult AB | Försäljning, KAM & affärsutveckling":"A SalesConsult AB | Sales, KAM & Business Development"}t.onclick=()=>setLang(l==="sv"?"en":"sv");m.onclick=()=>n.classList.toggle("open");document.querySelectorAll(".main-nav a").forEach(a=>a.onclick=()=>n.classList.remove("open"));const o=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add("visible")),{threshold:.12});document.querySelectorAll(".reveal").forEach(e=>o.observe(e));document.getElementById("year").textContent=new Date().getFullYear();
