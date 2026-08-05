@@ -1,2 +1,3 @@
-# asales.se
-        Professional sales, Key Account Management and Business Development consulting.
+# A SalesConsult AB
+
+Ladda upp alla filer till GitHub-repot och aktivera GitHub Pages från branch `main`.
