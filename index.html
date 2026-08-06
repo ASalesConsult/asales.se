@@ -16,7 +16,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,6 +28,7 @@
         <img src="images/A-SalesConsult-horizontal-logo.png" alt="A SalesConsult AB" class="header-logo">
       </a>
 
+      <button class="language-switch" id="langToggle" type="button" aria-label="Byt språk"><span class="lang-option lang-active" data-lang="sv">🇸🇪 SV</span><span class="lang-divider">|</span><span class="lang-option" data-lang="en">🇬🇧 EN</span></button>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Öppna meny">
         <span></span><span></span><span></span>
       </button>
@@ -37,11 +38,7 @@
         <a href="#approach" data-sv="Arbetssätt" data-en="Approach">Arbetssätt</a>
         <a href="#about" data-sv="Om oss" data-en="About">Om oss</a>
         <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
-        <button class="lang-toggle" id="langToggle" type="button" aria-label="Byt språk">
-          <span class="lang-option lang-active" data-lang="sv">SV</span>
-          <span class="lang-divider">/</span>
-          <span class="lang-option" data-lang="en">EN</span>
-        </button>
+        
       </nav>
     </div>
   </header>
@@ -54,14 +51,11 @@
 
       <div class="container hero-layout">
         <div class="hero-copy reveal">
-          <p class="eyebrow" data-sv="FÖRSÄLJNING · KAM · AFFÄRSUTVECKLING" data-en="SALES · KAM · BUSINESS DEVELOPMENT">
-            FÖRSÄLJNING · KAM · AFFÄRSUTVECKLING
+          <p class="eyebrow" data-sv="A SALESCONSULT AB" data-en="SALES · KAM · BUSINESS DEVELOPMENT">
+            A SALESCONSULT AB
           </p>
 
-          <h1 data-sv="Skapar tillväxt genom försäljning, relationer och resultat."
-              data-en="Creating growth through sales, relationships and results.">
-            Skapar tillväxt genom försäljning, relationer och resultat.
-          </h1>
+          <h1>Driving Growth Through Sales.</h1>
 
           <p class="hero-lead"
              data-sv="A SalesConsult AB hjälper företag att accelerera sin försäljning genom erfaren Key Account Management, Business Development och operativ säljkraft."
@@ -298,10 +292,10 @@
         </div>
 
         <div class="about-copy reveal">
-          <p class="eyebrow" data-sv="OM A SALESCONSULT" data-en="ABOUT A SALESCONSULT">OM A SALESCONSULT</p>
-          <h2 data-sv="Ett konsultbolag byggt för att skapa rörelse."
-              data-en="A consultancy built to create momentum.">
-            Ett konsultbolag byggt för att skapa rörelse.
+          <p class="eyebrow" data-sv="OM ANDREAS" data-en="ABOUT ANDREAS">OM ANDREAS</p>
+          <h2 data-sv="Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar."
+              data-en="A consultancy built around experience, drive and personal ownership.">
+            Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar.
           </h2>
 
           <p data-sv="A SalesConsult AB hjälper företag som behöver förstärka försäljningen, utveckla viktiga kunder eller driva nya affärer."
@@ -322,7 +316,13 @@
           </ul>
         </div>
       </div>
-    </section>
+    <div class="personal-story-grid">
+<article><img src="images/andreas-igaming.jpg" alt="Andreas på internationell affärskonferens"><div><p class="story-kicker">ARBETSLIV</p><h3>Försäljning, KAM och affärsutveckling</h3><p>Över 20 års erfarenhet från bland annat Swedish Match, Orkla, TalentXD, FMCG, B2B och internationell iGaming.</p></div></article>
+<article><img src="images/andreas-event.jpg" alt="Andreas med mikrofon"><div><p class="story-kicker">EVENT & REPRESENTATION</p><h3>Trygg framför människor</h3><p>Presentationer, event, sponsorarbete och representation i miljöer där relationer och förtroende är avgörande.</p></div></article>
+<article><img src="images/andreas-goalie.jpg" alt="Andreas som elitmålvakt"><div><p class="story-kicker">IDROTT & LEDARSKAP</p><h3>Elitidrott, lagbyggande och ledarskap</h3><p>Flera säsonger på elitnivå samt erfarenhet som sportchef i Djurgårdens innebandy.</p></div></article>
+<article><img src="images/andreas-newspaper.jpg" alt="Tidningsartikel om Andreas"><div><p class="story-kicker">UTBILDNING & UTVECKLING</p><h3>Ständig utveckling</h3><p>Examinerad Key Account Manager med studier inom strategi, affärsjuridik, projektledning och ledarskap.</p></div></article>
+</div>
+</section>
 
     <section class="contact-section" id="contact">
       <div class="container contact-layout">
