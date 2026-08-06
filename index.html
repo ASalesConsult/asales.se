@@ -3,373 +3,242 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>A SalesConsult AB | Försäljning, KAM & affärsutveckling</title>
-  <meta name="description" content="A SalesConsult AB hjälper företag att skapa tillväxt genom försäljning, Key Account Management och affärsutveckling.">
-  <meta name="theme-color" content="#071a31">
+  <title>A SalesConsult AB | Driving Growth Through Sales</title>
+  <meta name="description" content="A SalesConsult AB hjälper företag att växa genom försäljning, Key Account Management och affärsutveckling.">
+  <meta name="theme-color" content="#0D1B3D">
   <link rel="icon" type="image/png" href="images/favicon.png">
-
   <meta property="og:title" content="A SalesConsult AB">
-  <meta property="og:description" content="Skapar tillväxt genom försäljning, relationer och resultat.">
+  <meta property="og:description" content="Relationships. Results. Repeat.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://asales.se">
   <meta property="og:image" content="https://asales.se/images/social-preview.jpg">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main" data-sv="Hoppa till innehåll" data-en="Skip to content">Hoppa till innehåll</a>
+<a class="skip-link" href="#main" data-sv="Hoppa till innehåll" data-en="Skip to content">Hoppa till innehåll</a>
 
-  <header class="site-header" id="siteHeader">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="A SalesConsult AB">
-        <img src="images/A-SalesConsult-horizontal-logo.png" alt="A SalesConsult AB" class="header-logo">
-      </a>
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="A SalesConsult AB">
+      <img src="images/A-SalesConsult-horizontal-logo.png" alt="A SalesConsult AB" class="header-logo">
+    </a>
 
-      <button class="language-switch" id="langToggle" type="button" aria-label="Byt språk"><span class="lang-option lang-active" data-lang="sv">🇸🇪 SV</span><span class="lang-divider">|</span><span class="lang-option" data-lang="en">🇬🇧 EN</span></button>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Öppna meny">
+    <nav class="desktop-nav" aria-label="Huvudmeny">
+      <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
+      <a href="#approach" data-sv="Arbetssätt" data-en="Approach">Arbetssätt</a>
+      <a href="#journey" data-sv="Erfarenhet" data-en="Experience">Erfarenhet</a>
+      <a href="#about" data-sv="Om Andreas" data-en="About Andreas">Om Andreas</a>
+      <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="language-switch" id="languageSwitch" type="button" aria-label="Byt språk">
+        <span class="language-option active" data-lang="sv">🇸🇪 SV</span>
+        <span class="language-divider">|</span>
+        <span class="language-option" data-lang="en">🇬🇧 EN</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Öppna meny">
         <span></span><span></span><span></span>
       </button>
-
-      <nav class="main-nav" id="mainNav" aria-label="Huvudmeny">
-        <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
-        <a href="#approach" data-sv="Arbetssätt" data-en="Approach">Arbetssätt</a>
-        <a href="#about" data-sv="Om oss" data-en="About">Om oss</a>
-        <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
-        
-      </nav>
     </div>
-  </header>
+  </div>
 
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-media" aria-hidden="true"></div>
-      <div class="hero-overlay" aria-hidden="true"></div>
-      <div class="hero-glow" aria-hidden="true"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobilmeny">
+    <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
+    <a href="#approach" data-sv="Arbetssätt" data-en="Approach">Arbetssätt</a>
+    <a href="#journey" data-sv="Erfarenhet" data-en="Experience">Erfarenhet</a>
+    <a href="#about" data-sv="Om Andreas" data-en="About Andreas">Om Andreas</a>
+    <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
+  </nav>
+</header>
 
-      <div class="container hero-layout">
-        <div class="hero-copy reveal">
-          <p class="eyebrow" data-sv="A SALESCONSULT AB" data-en="SALES · KAM · BUSINESS DEVELOPMENT">
-            A SALESCONSULT AB
-          </p>
-
-          <h1>Driving Growth Through Sales.</h1>
-
-          <p class="hero-lead"
-             data-sv="A SalesConsult AB hjälper företag att accelerera sin försäljning genom erfaren Key Account Management, Business Development och operativ säljkraft."
-             data-en="A SalesConsult AB helps companies accelerate sales through experienced Key Account Management, Business Development and hands-on sales execution.">
-            A SalesConsult AB hjälper företag att accelerera sin försäljning genom erfaren Key Account Management, Business Development och operativ säljkraft.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-gold" href="#contact" data-sv="Boka ett första möte" data-en="Book an introductory meeting">Boka ett första möte</a>
-            <a class="button button-outline" href="#services" data-sv="Utforska våra tjänster" data-en="Explore our services">Utforska våra tjänster</a>
-          </div>
-
-          <div class="hero-proof">
-            <div class="proof-item">
-              <span class="proof-icon">↗</span>
-              <strong>20+</strong>
-              <small data-sv="ÅRS ERFARENHET" data-en="YEARS OF EXPERIENCE">ÅRS ERFARENHET</small>
-            </div>
-            <div class="proof-item">
-              <span class="proof-icon">◇</span>
-              <strong>B2B</strong>
-              <small data-sv="KOMMERSIELLT FOKUS" data-en="COMMERCIAL FOCUS">KOMMERSIELLT FOKUS</small>
-            </div>
-            <div class="proof-item">
-              <span class="proof-icon">◎</span>
-              <strong data-sv="SVERIGE" data-en="SWEDEN">SVERIGE</strong>
-              <small data-sv="OCH INTERNATIONELLT" data-en="AND INTERNATIONAL">OCH INTERNATIONELLT</small>
-            </div>
-          </div>
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-orbit hero-orbit-one"></div>
+    <div class="hero-orbit hero-orbit-two"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A SALESCONSULT AB</p>
+        <h1>Driving Growth Through Sales.</h1>
+        <p class="hero-lead" data-sv="A SalesConsult AB hjälper företag att skapa tillväxt genom försäljning, Key Account Management och affärsutveckling."
+           data-en="A SalesConsult AB helps companies grow through sales, Key Account Management and Business Development.">
+          A SalesConsult AB hjälper företag att skapa tillväxt genom försäljning, Key Account Management och affärsutveckling.
+        </p>
+        <p class="founder-line" data-sv="Du arbetar direkt med grundaren Andreas Enström – från första mötet till genomförande och uppföljning."
+           data-en="You work directly with founder Andreas Enström – from the first meeting through execution and follow-up.">
+          Du arbetar direkt med grundaren Andreas Enström – från första mötet till genomförande och uppföljning.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contact" data-sv="Boka ett möte" data-en="Book a meeting">Boka ett möte</a>
+          <a class="button button-outline" href="#services" data-sv="Våra tjänster" data-en="Our services">Våra tjänster</a>
         </div>
-
-        <aside class="hero-crest reveal" aria-label="A SalesConsult AB">
-          <img src="images/A-SalesConsult-crest.png" alt="">
-          <p data-sv="Relationships. Results. Repeat." data-en="Relationships. Results. Repeat.">Relationships. Results. Repeat.</p>
-        </aside>
+        <div class="slogan">Relationships. Results. Repeat.</div>
       </div>
 
-      <a class="scroll-cue" href="#services" aria-label="Scrolla vidare">
-        <span></span>
-      </a>
-    </section>
-
-    <section class="section intro-section">
-      <div class="container intro-grid">
-        <div class="section-heading reveal">
-          <p class="eyebrow" data-sv="AFFÄRSVÄRDE" data-en="BUSINESS VALUE">AFFÄRSVÄRDE</p>
-          <h2 data-sv="Erfarenhet som skapar rörelse i affären."
-              data-en="Experience that creates commercial momentum.">
-            Erfarenhet som skapar rörelse i affären.
-          </h2>
+      <div class="hero-visual reveal">
+        <div class="hero-photo-frame">
+          <img src="images/andreas-hero.jpg" alt="Andreas Enström, grundare av A SalesConsult AB">
         </div>
-
-        <div class="intro-copy reveal">
-          <p data-sv="När försäljningen behöver förstärkas krävs mer än fina planer. Det krävs närvaro, prioritering och förmåga att omsätta strategi i handling."
-             data-en="When sales needs strengthening, plans are not enough. It takes presence, prioritisation and the ability to turn strategy into action.">
-            När försäljningen behöver förstärkas krävs mer än fina planer. Det krävs närvaro, prioritering och förmåga att omsätta strategi i handling.
-          </p>
-          <p data-sv="A SalesConsult går in där behovet är som störst – från operativ bearbetning till strategiskt kundansvar."
-             data-en="A SalesConsult steps in where the need is greatest – from hands-on sales execution to strategic account ownership.">
-            A SalesConsult går in där behovet är som störst – från operativ bearbetning till strategiskt kundansvar.
-          </p>
-        </div>
+        <img src="images/A-SalesConsult-crest.png" alt="" class="crest-watermark">
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section services-section" id="services">
-      <div class="container">
-        <div class="section-heading centered reveal">
-          <p class="eyebrow" data-sv="VÅRA TJÄNSTER" data-en="OUR SERVICES">VÅRA TJÄNSTER</p>
-          <h2 data-sv="Flexibel kompetens. Tydligt affärsfokus."
-              data-en="Flexible expertise. Clear commercial focus.">
-            Flexibel kompetens. Tydligt affärsfokus.
-          </h2>
-          <p data-sv="Uppdraget formas efter mål, marknad och organisation – operativt, strategiskt eller som en kombination av båda."
-             data-en="Each assignment is shaped around your goals, market and organisation – operational, strategic or a combination of both.">
-            Uppdraget formas efter mål, marknad och organisation – operativt, strategiskt eller som en kombination av båda.
-          </p>
-        </div>
+  <section class="metrics-section">
+    <div class="container metrics-grid">
+      <article><strong>20+</strong><span data-sv="ÅR AV FÖRSÄLJNING" data-en="YEARS IN SALES">ÅR AV FÖRSÄLJNING</span></article>
+      <article><strong>KAM</strong><span>KEY ACCOUNT MANAGEMENT</span></article>
+      <article><strong>EMEA</strong><span data-sv="TIDSZONSKOMPATIBEL" data-en="TIMEZONE COMPATIBLE">TIDSZONSKOMPATIBEL</span></article>
+      <article><strong>B2B</strong><span data-sv="KOMMERSIELLT FOKUS" data-en="COMMERCIAL FOCUS">KOMMERSIELLT FOKUS</span></article>
+    </div>
+  </section>
 
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <span class="service-number">01</span>
-            <div class="service-symbol">KAM</div>
-            <h3>Key Account Management</h3>
-            <p data-sv="Utveckling av nyckelkunder, kundplaner, förhandling och långsiktigt värdeskapande."
-               data-en="Key account development, account plans, negotiation and long-term value creation.">
-              Utveckling av nyckelkunder, kundplaner, förhandling och långsiktigt värdeskapande.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-number">02</span>
-            <div class="service-symbol">BD</div>
-            <h3>Business Development</h3>
-            <p data-sv="Nya affärer, partnerskap, marknadsbearbetning och kommersiell expansion."
-               data-en="New business, partnerships, market development and commercial expansion.">
-              Nya affärer, partnerskap, marknadsbearbetning och kommersiell expansion.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-number">03</span>
-            <div class="service-symbol">IS</div>
-            <h3>Interim Sales</h3>
-            <p data-sv="Erfaren säljresurs vid vakans, projekt, lansering eller tillväxtfas."
-               data-en="Experienced sales capacity during vacancies, projects, launches or growth phases.">
-              Erfaren säljresurs vid vakans, projekt, lansering eller tillväxtfas.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-number">04</span>
-            <div class="service-symbol">FS</div>
-            <h3 data-sv="Fält- & butikssälj" data-en="Field & retail sales">Fält- & butikssälj</h3>
-            <p data-sv="Kundbesök, kampanjer, aktivering och synlighet nära marknaden."
-               data-en="Customer visits, campaigns, activation and visibility close to the market.">
-              Kundbesök, kampanjer, aktivering och synlighet nära marknaden.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-number">05</span>
-            <div class="service-symbol">EP</div>
-            <h3 data-sv="Event & partnerskap" data-en="Events & partnerships">Event & partnerskap</h3>
-            <p data-sv="Kommersiella event, sponsorarbete, relationsbyggande och projektledning."
-               data-en="Commercial events, sponsorships, relationship building and project management.">
-              Kommersiella event, sponsorarbete, relationsbyggande och projektledning.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-number">06</span>
-            <div class="service-symbol">SA</div>
-            <h3 data-sv="Säljstruktur & analys" data-en="Sales structure & analysis">Säljstruktur & analys</h3>
-            <p data-sv="Segmentering, prioritering, arbetssätt och aktiviteter som skapar tydligare effekt."
-               data-en="Segmentation, prioritisation, ways of working and activities that create clearer impact.">
-              Segmentering, prioritering, arbetssätt och aktiviteter som skapar tydligare effekt.
-            </p>
-          </article>
-        </div>
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow" data-sv="TJÄNSTER" data-en="SERVICES">TJÄNSTER</p>
+        <h2 data-sv="Försäljningskompetens som skapar affärsvärde." data-en="Sales expertise that creates business value.">Försäljningskompetens som skapar affärsvärde.</h2>
+        <p data-sv="Uppdraget formas efter mål, marknad och organisation – operativt, strategiskt eller som en kombination av båda."
+           data-en="Each assignment is shaped around your goals, market and organisation – operational, strategic or a combination of both.">
+          Uppdraget formas efter mål, marknad och organisation – operativt, strategiskt eller som en kombination av båda.
+        </p>
       </div>
-    </section>
 
-    <section class="section approach-section" id="approach">
-      <div class="container approach-layout">
-        <div class="approach-copy reveal">
-          <p class="eyebrow" data-sv="ARBETSSÄTT" data-en="APPROACH">ARBETSSÄTT</p>
-          <h2 data-sv="Från behov till aktivitet – utan onödiga omvägar."
-              data-en="From need to action – without unnecessary detours.">
-            Från behov till aktivitet – utan onödiga omvägar.
-          </h2>
-          <p data-sv="Ett tydligt arbetssätt gör det enklare att komma igång, följa upp och justera insatsen längs vägen."
-             data-en="A clear way of working makes it easier to get started, follow up and adjust along the way.">
-            Ett tydligt arbetssätt gör det enklare att komma igång, följa upp och justera insatsen längs vägen.
-          </p>
-        </div>
-
-        <ol class="process-list">
-          <li class="reveal">
-            <span>01</span>
-            <div>
-              <h3 data-sv="Förstå behovet" data-en="Understand the need">Förstå behovet</h3>
-              <p data-sv="Mål, nuläge, prioriteringar och förväntad effekt."
-                 data-en="Goals, current situation, priorities and expected impact.">
-                Mål, nuläge, prioriteringar och förväntad effekt.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span>02</span>
-            <div>
-              <h3 data-sv="Skapa fokus" data-en="Create focus">Skapa fokus</h3>
-              <p data-sv="Rätt kunder, aktiviteter, budskap och uppföljning."
-                 data-en="The right customers, activities, messaging and follow-up.">
-                Rätt kunder, aktiviteter, budskap och uppföljning.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span>03</span>
-            <div>
-              <h3 data-sv="Genomföra" data-en="Execute">Genomföra</h3>
-              <p data-sv="Hög närvaro, tydligt ansvar och kontinuerlig återkoppling."
-                 data-en="Strong presence, clear ownership and continuous feedback.">
-                Hög närvaro, tydligt ansvar och kontinuerlig återkoppling.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span>04</span>
-            <div>
-              <h3 data-sv="Utveckla" data-en="Develop">Utveckla</h3>
-              <p data-sv="Lärdomar omsätts i nästa aktivitet och långsiktigt värde."
-                 data-en="Insights are turned into the next activity and long-term value.">
-                Lärdomar omsätts i nästa aktivitet och långsiktigt värde.
-              </p>
-            </div>
-          </li>
-        </ol>
+      <div class="service-grid">
+        <article class="service-card reveal"><span>01</span><h3>Key Account Management</h3><p data-sv="Nyckelkunder, kundplaner, förhandling och långsiktigt värdeskapande." data-en="Key accounts, account plans, negotiation and long-term value creation.">Nyckelkunder, kundplaner, förhandling och långsiktigt värdeskapande.</p></article>
+        <article class="service-card reveal"><span>02</span><h3>Business Development</h3><p data-sv="Nya affärer, partnerskap, marknadsbearbetning och kommersiell expansion." data-en="New business, partnerships, market development and commercial expansion.">Nya affärer, partnerskap, marknadsbearbetning och kommersiell expansion.</p></article>
+        <article class="service-card reveal"><span>03</span><h3>Interim Sales</h3><p data-sv="Erfaren säljresurs vid vakans, projekt, lansering eller tillväxtfas." data-en="Experienced sales capacity during vacancies, projects, launches or growth phases.">Erfaren säljresurs vid vakans, projekt, lansering eller tillväxtfas.</p></article>
+        <article class="service-card reveal"><span>04</span><h3 data-sv="Fält- & butikssälj" data-en="Field & retail sales">Fält- & butikssälj</h3><p data-sv="Kundbesök, kampanjer, aktivering och synlighet nära marknaden." data-en="Customer visits, campaigns, activation and visibility close to the market.">Kundbesök, kampanjer, aktivering och synlighet nära marknaden.</p></article>
+        <article class="service-card reveal"><span>05</span><h3 data-sv="Event & representation" data-en="Events & representation">Event & representation</h3><p data-sv="Planering, genomförande, sponsorarbete och professionell representation." data-en="Planning, execution, sponsorships and professional representation.">Planering, genomförande, sponsorarbete och professionell representation.</p></article>
+        <article class="service-card reveal"><span>06</span><h3 data-sv="Säljstruktur & analys" data-en="Sales structure & analysis">Säljstruktur & analys</h3><p data-sv="Segmentering, prioritering och arbetssätt som skapar tydligare effekt." data-en="Segmentation, prioritisation and ways of working that create clearer impact.">Segmentering, prioritering och arbetssätt som skapar tydligare effekt.</p></article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section sectors-section">
-      <div class="container sectors-layout reveal">
-        <div>
-          <p class="eyebrow" data-sv="BRANSCHER" data-en="INDUSTRIES">BRANSCHER</p>
-          <h2 data-sv="Bred erfarenhet. Samma fokus: affären."
-              data-en="Broad experience. One focus: business impact.">
-            Bred erfarenhet. Samma fokus: affären.
-          </h2>
-        </div>
-
-        <div class="sector-chips">
-          <span>FMCG</span>
-          <span>Retail</span>
-          <span>iGaming</span>
-          <span>Sport</span>
-          <span>B2B</span>
-          <span>SaaS</span>
-          <span>Event</span>
-          <span>Distribution</span>
-        </div>
+  <section class="section approach-section" id="approach">
+    <div class="container approach-grid">
+      <div class="approach-copy reveal">
+        <p class="eyebrow" data-sv="ARBETSSÄTT" data-en="APPROACH">ARBETSSÄTT</p>
+        <h2 data-sv="Personlig kontakt. Professionellt genomförande." data-en="Personal contact. Professional execution.">Personlig kontakt. Professionellt genomförande.</h2>
+        <p data-sv="Som kund arbetar du direkt med Andreas. Det ger korta beslutsvägar, tydligt ansvar och hög närvaro i hela uppdraget."
+           data-en="As a client, you work directly with Andreas. That means short decision paths, clear ownership and strong presence throughout the assignment.">
+          Som kund arbetar du direkt med Andreas. Det ger korta beslutsvägar, tydligt ansvar och hög närvaro i hela uppdraget.
+        </p>
       </div>
-    </section>
+      <ol class="process-list">
+        <li class="reveal"><span>01</span><div><h3 data-sv="Förstå behovet" data-en="Understand the need">Förstå behovet</h3><p data-sv="Mål, nuläge, prioriteringar och förväntad effekt." data-en="Goals, current situation, priorities and expected impact.">Mål, nuläge, prioriteringar och förväntad effekt.</p></div></li>
+        <li class="reveal"><span>02</span><div><h3 data-sv="Skapa fokus" data-en="Create focus">Skapa fokus</h3><p data-sv="Rätt kunder, aktiviteter, budskap och uppföljning." data-en="The right customers, activities, messaging and follow-up.">Rätt kunder, aktiviteter, budskap och uppföljning.</p></div></li>
+        <li class="reveal"><span>03</span><div><h3 data-sv="Genomföra" data-en="Execute">Genomföra</h3><p data-sv="Hög närvaro, tydligt ansvar och kontinuerlig återkoppling." data-en="Strong presence, clear ownership and continuous feedback.">Hög närvaro, tydligt ansvar och kontinuerlig återkoppling.</p></div></li>
+        <li class="reveal"><span>04</span><div><h3 data-sv="Utveckla" data-en="Develop">Utveckla</h3><p data-sv="Lärdomar omsätts i nästa aktivitet och långsiktigt värde." data-en="Insights are turned into the next activity and long-term value.">Lärdomar omsätts i nästa aktivitet och långsiktigt värde.</p></div></li>
+      </ol>
+    </div>
+  </section>
 
-    <section class="section about-section" id="about">
-      <div class="container about-layout">
-        <div class="about-visual reveal">
-          <div class="about-photo" role="img" aria-label="Professionellt affärsmöte"></div>
-          <div class="experience-card">
-            <strong>20+</strong>
-            <span data-sv="ÅR I FÖRSÄLJNING" data-en="YEARS IN SALES">ÅR I FÖRSÄLJNING</span>
-          </div>
-        </div>
+  <section class="section highlights-section">
+    <div class="container">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow" data-sv="HÖJDPUNKTER" data-en="HIGHLIGHTS">HÖJDPUNKTER</p>
+        <h2 data-sv="En ovanlig kombination av affär, idrott och ledarskap." data-en="A distinctive combination of business, sport and leadership.">En ovanlig kombination av affär, idrott och ledarskap.</h2>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card reveal"><strong>20+</strong><h3 data-sv="Års erfarenhet" data-en="Years of experience">Års erfarenhet</h3><p data-sv="Försäljning, KAM och affärsutveckling." data-en="Sales, KAM and business development.">Försäljning, KAM och affärsutveckling.</p></article>
+        <article class="highlight-card reveal"><strong>KAM</strong><h3 data-sv="Examinerad" data-en="Graduated">Examinerad</h3><p data-sv="Key Account Manager med starka studieresultat." data-en="Key Account Manager with strong academic results.">Key Account Manager med starka studieresultat.</p></article>
+        <article class="highlight-card reveal"><strong>SSL</strong><h3 data-sv="Elitidrott" data-en="Elite sport">Elitidrott</h3><p data-sv="Flera säsonger på högsta nivå i innebandy." data-en="Several seasons at the highest level in floorball.">Flera säsonger på högsta nivå i innebandy.</p></article>
+        <article class="highlight-card reveal"><strong>EMEA</strong><h3 data-sv="Internationellt" data-en="International">Internationellt</h3><p data-sv="Affärsmiljöer och tidszoner inom EMEA." data-en="Business environments and time zones across EMEA.">Affärsmiljöer och tidszoner inom EMEA.</p></article>
+      </div>
+    </div>
+  </section>
 
+  <section class="section journey-section" id="journey">
+    <div class="container">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-sv="RESAN" data-en="THE JOURNEY">RESAN</p>
+        <h2 data-sv="Erfarenhet byggd över tid." data-en="Experience built over time.">Erfarenhet byggd över tid.</h2>
+        <p data-sv="En karriär där försäljning, relationer, prestation och ledarskap löper som en tydlig röd tråd."
+           data-en="A career where sales, relationships, performance and leadership form a consistent thread.">
+          En karriär där försäljning, relationer, prestation och ledarskap löper som en tydlig röd tråd.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period" data-sv="ELITIDROTT" data-en="ELITE SPORT">ELITIDROTT</div><div><h3 data-sv="Målvakt på högsta nivå" data-en="Goalkeeper at the highest level">Målvakt på högsta nivå</h3><p data-sv="Prestation under press, lagarbete och långsiktig utveckling." data-en="Performance under pressure, teamwork and long-term development.">Prestation under press, lagarbete och långsiktig utveckling.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period">SWEDISH MATCH</div><div><h3 data-sv="15 år inom försäljning" data-en="15 years in sales">15 år inom försäljning</h3><p data-sv="Fältsälj, kundansvar, handel och långsiktiga relationer." data-en="Field sales, account ownership, retail and long-term relationships.">Fältsälj, kundansvar, handel och långsiktiga relationer.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period">ORKLA</div><div><h3 data-sv="Dagligvaruhandel och varumärken" data-en="FMCG and brands">Dagligvaruhandel och varumärken</h3><p data-sv="Kundutveckling, genomförande och kommersiell närvaro." data-en="Customer development, execution and commercial presence.">Kundutveckling, genomförande och kommersiell närvaro.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period">TALENTXD</div><div><h3 data-sv="Internationell Business Development" data-en="International Business Development">Internationell Business Development</h3><p data-sv="B2B, iGaming, nya marknader och affärsrelationer." data-en="B2B, iGaming, new markets and business relationships.">B2B, iGaming, nya marknader och affärsrelationer.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period" data-sv="KAM-EXAMEN" data-en="KAM DEGREE">KAM-EXAMEN</div><div><h3 data-sv="Fördjupad affärskompetens" data-en="Advanced commercial expertise">Fördjupad affärskompetens</h3><p data-sv="Strategi, affärsjuridik, projektledning, upphandling och ledarskap." data-en="Strategy, business law, project management, procurement and leadership.">Strategi, affärsjuridik, projektledning, upphandling och ledarskap.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-period">A SALESCONSULT AB</div><div><h3 data-sv="Grundare och senior konsult" data-en="Founder and senior consultant">Grundare och senior konsult</h3><p data-sv="Personlig leverans med hela erfarenheten samlad i ett erbjudande." data-en="Personal delivery with all experience brought together in one offering.">Personlig leverans med hela erfarenheten samlad i ett erbjudande.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-sv="OM ANDREAS" data-en="ABOUT ANDREAS">OM ANDREAS</p>
+        <h2 data-sv="Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar." data-en="A consultancy built around experience, drive and personal ownership.">Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar.</h2>
+        <p data-sv="A SalesConsult AB drivs av Andreas Enström. Som kund vet du alltid vem som ansvarar för uppdraget."
+           data-en="A SalesConsult AB is run by Andreas Enström. As a client, you always know who is responsible for the assignment.">
+          A SalesConsult AB drivs av Andreas Enström. Som kund vet du alltid vem som ansvarar för uppdraget.
+        </p>
+      </div>
+
+      <div class="about-intro-grid">
+        <div class="portrait-card reveal"><img src="images/andreas-portrait.jpg" alt="Andreas Enström i mörk kostym"></div>
         <div class="about-copy reveal">
-          <p class="eyebrow" data-sv="OM ANDREAS" data-en="ABOUT ANDREAS">OM ANDREAS</p>
-          <h2 data-sv="Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar."
-              data-en="A consultancy built around experience, drive and personal ownership.">
-            Ett konsultbolag byggt kring erfarenhet, driv och personligt ansvar.
-          </h2>
-
-          <p data-sv="A SalesConsult AB hjälper företag som behöver förstärka försäljningen, utveckla viktiga kunder eller driva nya affärer."
-             data-en="A SalesConsult AB supports companies that need to strengthen sales, develop key accounts or drive new business.">
-            A SalesConsult AB hjälper företag som behöver förstärka försäljningen, utveckla viktiga kunder eller driva nya affärer.
+          <h3 data-sv="Senior sälj- och affärskonsult" data-en="Senior sales and business consultant">Senior sälj- och affärskonsult</h3>
+          <p data-sv="Med över 20 års erfarenhet av försäljning och affärsutveckling inom både nationella och internationella marknader kombinerar Andreas affärsmässighet, relationsbyggande och resultatfokus."
+             data-en="With more than 20 years of experience in sales and business development across national and international markets, Andreas combines commercial acumen, relationship building and a strong focus on results.">
+            Med över 20 års erfarenhet av försäljning och affärsutveckling inom både nationella och internationella marknader kombinerar Andreas affärsmässighet, relationsbyggande och resultatfokus.
           </p>
-
-          <p data-sv="Bakom bolaget finns över två decenniers erfarenhet av försäljning, Key Account Management, affärsutveckling, dagligvaruhandel, B2B, iGaming, event och föreningsliv."
-             data-en="The company is built on more than two decades of experience in sales, Key Account Management, business development, FMCG, B2B, iGaming, events and sports organisations.">
-            Bakom bolaget finns över två decenniers erfarenhet av försäljning, Key Account Management, affärsutveckling, dagligvaruhandel, B2B, iGaming, event och föreningsliv.
-          </p>
-
-          <ul class="feature-list">
-            <li data-sv="Operativ genomförandekraft" data-en="Hands-on execution">Operativ genomförandekraft</li>
-            <li data-sv="Strategiskt kundperspektiv" data-en="Strategic customer perspective">Strategiskt kundperspektiv</li>
-            <li data-sv="Personligt engagemang" data-en="Personal commitment">Personligt engagemang</li>
-            <li data-sv="Flexibla uppdragsformer" data-en="Flexible engagement models">Flexibla uppdragsformer</li>
-          </ul>
-        </div>
-      </div>
-    <div class="personal-story-grid">
-<article><img src="images/andreas-igaming.jpg" alt="Andreas på internationell affärskonferens"><div><p class="story-kicker">ARBETSLIV</p><h3>Försäljning, KAM och affärsutveckling</h3><p>Över 20 års erfarenhet från bland annat Swedish Match, Orkla, TalentXD, FMCG, B2B och internationell iGaming.</p></div></article>
-<article><img src="images/andreas-event.jpg" alt="Andreas med mikrofon"><div><p class="story-kicker">EVENT & REPRESENTATION</p><h3>Trygg framför människor</h3><p>Presentationer, event, sponsorarbete och representation i miljöer där relationer och förtroende är avgörande.</p></div></article>
-<article><img src="images/andreas-goalie.jpg" alt="Andreas som elitmålvakt"><div><p class="story-kicker">IDROTT & LEDARSKAP</p><h3>Elitidrott, lagbyggande och ledarskap</h3><p>Flera säsonger på elitnivå samt erfarenhet som sportchef i Djurgårdens innebandy.</p></div></article>
-<article><img src="images/andreas-newspaper.jpg" alt="Tidningsartikel om Andreas"><div><p class="story-kicker">UTBILDNING & UTVECKLING</p><h3>Ständig utveckling</h3><p>Examinerad Key Account Manager med studier inom strategi, affärsjuridik, projektledning och ledarskap.</p></div></article>
-</div>
-</section>
-
-    <section class="contact-section" id="contact">
-      <div class="container contact-layout">
-        <div class="contact-copy reveal">
-          <p class="eyebrow" data-sv="KONTAKT" data-en="CONTACT">KONTAKT</p>
-          <h2 data-sv="Behöver ni förstärka försäljningen?"
-              data-en="Do you need to strengthen your sales?">
-            Behöver ni förstärka försäljningen?
-          </h2>
-          <p data-sv="Låt oss ta ett första samtal om ert behov, era mål och hur A SalesConsult kan bidra."
-             data-en="Let us have an initial conversation about your needs, goals and how A SalesConsult can contribute.">
-            Låt oss ta ett första samtal om ert behov, era mål och hur A SalesConsult kan bidra.
+          <p data-sv="Bakgrunden som Key Account Manager, Business Developer, elitidrottare, sportchef och föreningsledare ger ett brett perspektiv på prestation, ledarskap och långsiktiga samarbeten."
+             data-en="His background as a Key Account Manager, Business Developer, elite athlete, sporting director and association leader provides a broad perspective on performance, leadership and long-term partnerships.">
+            Bakgrunden som Key Account Manager, Business Developer, elitidrottare, sportchef och föreningsledare ger ett brett perspektiv på prestation, ledarskap och långsiktiga samarbeten.
           </p>
         </div>
-
-        <div class="contact-card reveal">
-          <img src="images/A-SalesConsult-crest.png" alt="" class="contact-crest">
-          <p class="contact-label" data-sv="E-POST" data-en="EMAIL">E-POST</p>
-          <a class="email-link" href="mailto:info@asales.se">info@asales.se</a>
-          <p class="contact-note" data-sv="E-postadressen aktiveras senare. Tills dess fungerar hemsidan som företagets digitala presentation."
-             data-en="The email address will be activated later. Until then, the website serves as the company's digital presentation.">
-            E-postadressen aktiveras senare. Tills dess fungerar hemsidan som företagets digitala presentation.
-          </p>
-          <a class="button button-gold full" href="mailto:info@asales.se"
-             data-sv="Skicka en förfrågan" data-en="Send an enquiry">Skicka en förfrågan</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-layout">
-      <a class="footer-brand" href="#top">
-        <img src="images/A-SalesConsult-horizontal-logo.png" alt="A SalesConsult AB">
-      </a>
-
-      <div class="footer-links">
-        <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
-        <a href="#approach" data-sv="Arbetssätt" data-en="Approach">Arbetssätt</a>
-        <a href="#about" data-sv="Om oss" data-en="About">Om oss</a>
-        <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
       </div>
 
-      <p>© <span id="year"></span> A SalesConsult AB</p>
+      <div class="story-grid">
+        <article class="story-card reveal"><img src="images/andreas-igaming.jpg" alt="Andreas på internationell affärskonferens"><div><p class="story-kicker" data-sv="ARBETSLIV" data-en="CAREER">ARBETSLIV</p><h3 data-sv="Försäljning, KAM och affärsutveckling" data-en="Sales, KAM and business development">Försäljning, KAM och affärsutveckling</h3><p data-sv="Erfarenhet från Swedish Match, Orkla, TalentXD, dagligvaruhandel, B2B och internationell iGaming." data-en="Experience from Swedish Match, Orkla, TalentXD, FMCG, B2B and international iGaming.">Erfarenhet från Swedish Match, Orkla, TalentXD, dagligvaruhandel, B2B och internationell iGaming.</p></div></article>
+        <article class="story-card reveal"><img src="images/andreas-event.jpg" alt="Andreas med mikrofon under ett event"><div><p class="story-kicker" data-sv="EVENT" data-en="EVENTS">EVENT</p><h3 data-sv="Trygg framför människor" data-en="Confident in front of people">Trygg framför människor</h3><p data-sv="Presentationer, event, sponsorarbete och representation där relationer och förtroende är avgörande." data-en="Presentations, events, sponsorships and representation where relationships and trust matter.">Presentationer, event, sponsorarbete och representation där relationer och förtroende är avgörande.</p></div></article>
+        <article class="story-card reveal"><img src="images/andreas-goalie.jpg" alt="Andreas som elitmålvakt i innebandy"><div><p class="story-kicker" data-sv="IDROTT & LEDARSKAP" data-en="SPORT & LEADERSHIP">IDROTT & LEDARSKAP</p><h3 data-sv="Elitidrott och lagbyggande" data-en="Elite sport and team building">Elitidrott och lagbyggande</h3><p data-sv="Flera säsonger på elitnivå samt erfarenhet som sportchef i Djurgårdens innebandy." data-en="Several seasons at elite level plus experience as sporting director in Djurgården floorball.">Flera säsonger på elitnivå samt erfarenhet som sportchef i Djurgårdens innebandy.</p></div></article>
+        <article class="story-card reveal"><img src="images/andreas-newspaper.jpg" alt="Tidningsartikel om Andreas Enström"><div><p class="story-kicker" data-sv="UTBILDNING" data-en="EDUCATION">UTBILDNING</p><h3 data-sv="Ständig utveckling" data-en="Continuous development">Ständig utveckling</h3><p data-sv="Examinerad Key Account Manager med studier inom strategi, affärsjuridik, projektledning, upphandling och ledarskap." data-en="Graduated Key Account Manager with studies in strategy, business law, project management, procurement and leadership.">Examinerad Key Account Manager med studier inom strategi, affärsjuridik, projektledning, upphandling och ledarskap.</p></div></article>
+      </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-copy reveal">
+        <p class="eyebrow" data-sv="KONTAKT" data-en="CONTACT">KONTAKT</p>
+        <h2 data-sv="Vill du veta hur vi kan skapa resultat tillsammans?" data-en="Would you like to explore how we can create results together?">Vill du veta hur vi kan skapa resultat tillsammans?</h2>
+        <p data-sv="Ta ett första samtal om behov, mål och hur A SalesConsult kan bidra." data-en="Start with an initial conversation about your needs, goals and how A SalesConsult can contribute.">Ta ett första samtal om behov, mål och hur A SalesConsult kan bidra.</p>
+      </div>
+      <div class="contact-card reveal">
+        <img src="images/A-SalesConsult-crest.png" alt="" class="contact-crest">
+        <p class="contact-label" data-sv="E-POST" data-en="EMAIL">E-POST</p>
+        <a class="email-link" href="mailto:info@asales.se">info@asales.se</a>
+        <p class="contact-note" data-sv="E-postadressen aktiveras senare." data-en="The email address will be activated later.">E-postadressen aktiveras senare.</p>
+        <a class="button button-gold full" href="mailto:info@asales.se" data-sv="Kontakta mig" data-en="Contact me">Kontakta mig</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <a href="#top" class="footer-brand"><img src="images/A-SalesConsult-horizontal-logo.png" alt="A SalesConsult AB"></a>
+    <div class="footer-links">
+      <a href="#services" data-sv="Tjänster" data-en="Services">Tjänster</a>
+      <a href="#journey" data-sv="Erfarenhet" data-en="Experience">Erfarenhet</a>
+      <a href="#about" data-sv="Om Andreas" data-en="About Andreas">Om Andreas</a>
+      <a href="#contact" data-sv="Kontakt" data-en="Contact">Kontakt</a>
+    </div>
+    <p>© <span id="year"></span> A SalesConsult AB</p>
+  </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
