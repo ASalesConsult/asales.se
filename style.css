@@ -56,7 +56,45 @@ img{display:block;max-width:100%}
   gap:22px;
   height:88px;
 }
-.header-logo{width:225px;height:auto}
+.brand-lockup{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
+.header-mark{
+  width:62px;
+  height:62px;
+  object-fit:contain;
+  flex:0 0 auto;
+}
+.brand-words{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+.brand-words strong{
+  color:var(--gold);
+  font-family:"Cinzel",serif;
+  font-size:18px;
+  line-height:1.08;
+  letter-spacing:.035em;
+  white-space:nowrap;
+}
+.brand-words strong small{
+  font-size:.58em;
+}
+.brand-words em{
+  margin-top:4px;
+  color:var(--gold);
+  font-family:"Montserrat",sans-serif;
+  font-size:8px;
+  font-style:normal;
+  font-weight:700;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
 .desktop-nav{
   display:flex;
   align-items:center;
@@ -263,7 +301,7 @@ h3{font-size:20px}
   font-size:9px;
   letter-spacing:.11em;
 }
-.crest-watermark{
+.brand-watermark{
   position:absolute;
   bottom:-30px;
   left:-28px;
@@ -585,7 +623,7 @@ h3{font-size:20px}
   background:var(--white);
   box-shadow:var(--shadow);
 }
-.contact-crest{
+.contact-mark{
   position:absolute;
   top:-40px;
   right:-30px;
@@ -613,7 +651,18 @@ h3{font-size:20px}
   gap:36px;
   align-items:center;
 }
-.footer-brand img{width:190px}
+.footer-brand{
+  display:flex;
+  align-items:center;
+  gap:11px;
+}
+.footer-mark{
+  width:54px;
+  height:54px;
+  object-fit:contain;
+}
+.footer-brand .brand-words strong{font-size:15px}
+.footer-brand .brand-words em{font-size:7px}
 .footer-links{display:flex;gap:22px;font-size:13px}
 .footer-meta{text-align:right}
 .footer-meta p{margin:0;color:rgba(255,255,255,.52);font-size:12px}
@@ -660,7 +709,9 @@ h3{font-size:20px}
 @media(max-width:680px){
   .container{width:min(100% - 28px,1180px)}
   .nav-wrap{height:78px}
-  .header-logo{width:150px}
+  .header-mark{width:46px;height:46px}
+  .brand-words strong{font-size:12px}
+  .brand-words em{font-size:6px;letter-spacing:.06em}
   .mobile-nav{inset:78px 0 0}
   .language-switch{padding:7px 8px;font-size:10px}
   .hero{min-height:auto;padding:118px 0 64px}
