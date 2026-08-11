@@ -1,3 +1,4 @@
+/* A SalesConsult AB — Website v7.3 */
 const languageSwitch = document.getElementById("languageSwitch");
 const languageOptions = document.querySelectorAll(".language-option");
 const menuToggle = document.querySelector(".menu-toggle");

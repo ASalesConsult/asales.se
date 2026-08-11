@@ -766,3 +766,43 @@ h3{font-size:20px}
 .story-card img[src*="andreas-ledarskap"]{
   object-position:center top;
 }
+
+/* v7.3 — locked mobile menu */
+@media (max-width:860px){
+  .mobile-nav{
+    position:fixed;
+    top:var(--header-h);
+    left:0;
+    right:0;
+    width:100%;
+    height:auto;
+    max-height:calc(100dvh - var(--header-h));
+    overflow-y:auto;
+    background:#0D1B3D;
+    opacity:1;
+    backdrop-filter:none;
+    -webkit-backdrop-filter:none;
+    border-bottom:2px solid #D4AF37;
+    box-shadow:0 18px 36px rgba(13,27,61,.24);
+    z-index:9998;
+  }
+  .mobile-nav-inner{
+    width:100%;
+    background:#0D1B3D;
+    padding:24px max(24px,env(safe-area-inset-right)) 28px max(24px,env(safe-area-inset-left));
+  }
+  .mobile-nav a,
+  .mobile-nav a:link,
+  .mobile-nav a:visited,
+  .mobile-nav a:hover,
+  .mobile-nav a:focus-visible,
+  .mobile-nav a:active{
+    color:#FFFFFF !important;
+    opacity:1;
+    font-weight:800;
+  }
+  .lang-switch,.language-switch,.language-toggle{
+    position:relative;
+    z-index:10000;
+  }
+}
