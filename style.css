@@ -430,10 +430,11 @@ h3{font-size:20px}
 
 .international-section{background:var(--white)}
 .international-grid{
-  display:grid;
-  grid-template-columns:.9fr 1.1fr;
-  gap:70px;
-  align-items:center;
+  display:block;
+}
+.international-card{
+  max-width:920px;
+  margin-inline:auto;
 }
 .international-card{
   padding:42px;
@@ -563,13 +564,23 @@ h3{font-size:20px}
 }
 .story-card>div{padding:28px}
 .story-kicker{
-  margin:0 0 10px;
+  margin:0 0 12px;
   color:var(--gold);
-  font-size:11px;
-  font-weight:800;
-  letter-spacing:.14em;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:.15em;
 }
-.story-card p:last-child{color:var(--muted);font-size:14px}
+.story-card h3{
+  color:var(--gold);
+  font-size:24px;
+  font-weight:700;
+}
+.story-card p:last-child{
+  color:var(--gold);
+  font-size:15px;
+  font-weight:600;
+  line-height:1.7;
+}
 
 .education-panel{
   display:grid;
@@ -689,7 +700,7 @@ h3{font-size:20px}
     background:rgba(13,27,61,.98);
   }
   .mobile-nav.open{display:flex}
-  .mobile-nav a{font-size:20px;font-weight:700}
+  .mobile-nav a{font-size:20px;font-weight:800;color:var(--light-blue)}
   .hero-grid,
   .personal-grid,
   .international-grid,
@@ -746,4 +757,12 @@ h3{font-size:20px}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
   .reveal{opacity:1;transform:none}
+}
+
+/* v7.2 image tuning */
+.story-card img[src*="andreas-arbetsliv"]{
+  object-position:center 28%;
+}
+.story-card img[src*="andreas-ledarskap"]{
+  object-position:center top;
 }
