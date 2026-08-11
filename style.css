@@ -806,3 +806,73 @@ h3{font-size:20px}
     z-index:10000;
   }
 }
+
+
+/* =========================================================
+   v7.3.1 — mobile menu hotfix
+   Keeps the drawer BELOW the header so the hamburger remains visible.
+   Shows all links in one opaque navy panel.
+   ========================================================= */
+@media (max-width:1080px){
+  .site-header{
+    z-index:1000;
+  }
+
+  .mobile-nav{
+    position:fixed !important;
+    top:88px !important;
+    right:0 !important;
+    bottom:auto !important;
+    left:0 !important;
+    width:100% !important;
+    max-height:calc(100dvh - 88px) !important;
+    padding:26px 24px 30px !important;
+    overflow-y:auto !important;
+    background:#0D1B3D !important;
+    border-bottom:2px solid #D4AF37 !important;
+    box-shadow:0 18px 36px rgba(13,27,61,.24);
+    z-index:999 !important;
+  }
+
+  .mobile-nav.open{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:stretch !important;
+    gap:0 !important;
+  }
+
+  .mobile-nav a,
+  .mobile-nav a:link,
+  .mobile-nav a:visited{
+    display:block !important;
+    width:100% !important;
+    padding:15px 0 !important;
+    color:#FFFFFF !important;
+    font-size:18px !important;
+    font-weight:800 !important;
+    line-height:1.2 !important;
+    opacity:1 !important;
+    border-bottom:1px solid rgba(255,255,255,.10);
+  }
+
+  .mobile-nav a:last-child{
+    border-bottom:0;
+  }
+
+  .menu-toggle{
+    position:relative;
+    z-index:1001;
+  }
+
+  .header-actions{
+    position:relative;
+    z-index:1001;
+  }
+}
+
+@media (max-width:680px){
+  .mobile-nav{
+    top:78px !important;
+    max-height:calc(100dvh - 78px) !important;
+  }
+}
