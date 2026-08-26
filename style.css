@@ -891,3 +891,6 @@ h3{font-size:20px}
 .contact-phone-label{margin-top:18px}
 @media(max-width:1100px){.service-grid-five{grid-template-columns:repeat(2,minmax(0,1fr))}.engagement-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.service-grid-five,.engagement-grid{grid-template-columns:1fr}}
+
+/* v7.4.1 contrast fix: Interim/FLEX intro copy */
+.engagement-section .section-heading>p:last-child{color:#FFFFFF;font-weight:600;}
