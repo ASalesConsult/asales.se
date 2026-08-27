@@ -894,3 +894,9 @@ h3{font-size:20px}
 
 /* v7.4.1 contrast fix: Interim/FLEX intro copy */
 .engagement-section .section-heading>p:last-child{color:#FFFFFF;font-weight:600;}
+
+/* v7.4.2 hotfix: make Interim/FLEX main heading fully readable */
+.engagement-section .section-heading h2{
+  color:#FFFFFF !important;
+  opacity:1 !important;
+}
